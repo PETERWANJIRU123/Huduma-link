@@ -8,6 +8,7 @@ Citizens submit service requests (broken streetlight, water issue, garbage colle
 2. Visit `http://localhost/public service sys/install.php`.
 3. Click **Run installation**. If this database still has the older passport/ID catalogue, also click **Update catalogue to civic requests**.
 4. Sign in, then protect or delete `install.php`.
+   ( Create a folder named huduma link and copy all the files in it,create a file named database and put the sql files in it,in the database file create two more folders "uploads and includes". In the includes folder copy the following files :catalogue,db,footer,functions,header,messaging.Create a file named fpdf in the includes folder and copy the fpdf file in it.Create a folder named config and copy the config file.Create a file named assets, in assets create two files named "css and js",in css move the style file and in js move the chat bot js and pdf js files.create a folder named admin and move the following files into it:_nva,index,messages,request,requests,services,users.)All these files should be in a folders named htdocs in the xampp folder.
 
 ## Demo accounts
 
