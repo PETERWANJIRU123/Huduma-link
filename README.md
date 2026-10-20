@@ -30,7 +30,7 @@ Administrators open **Users & access**, **Services**, and **Email & SMS** in the
 
 ## Email and SMS progress alerts
 
-Citizens are notified in the portal, by email, and by SMS when a request is submitted, paid, or updated by staff.
+Citizens are notified in the portal when a request is submitted, paid, or updated by staff.
 
 1. Open `config/config.php`.
 2. For **email**, set `MAIL_USER` and `MAIL_PASS` (Gmail: use an [App Password](https://myaccount.google.com/apppasswords) with `smtp.gmail.com`, port 587, `tls`).
@@ -38,3 +38,34 @@ Citizens are notified in the portal, by email, and by SMS when a request is subm
 4. Send a test from **Staff console → Email & SMS**.
 
 If credentials are empty, alerts still appear in the portal and a delivery log records that email/SMS was skipped.
+
+#About the system
+
+HudumaLink - Public Service Portal
+HudumaLink is a county public service management system that enables citizens to submit service requests and track their progress online. It's designed for county governments in Kenya (specifically Murang'a County) to streamline citizen service delivery.
+
+Key Features:
+For Citizens:
+
+Register for citizen accounts using national ID
+Submit service requests (streetlights, water issues, garbage collection, bursaries, etc.)
+Track request status using tracking codes
+View completion photos when requests are marked as done
+Download request reports as PDFs
+For Staff/Officers:
+
+Department Officers: Process requests from their assigned department only
+Supervisors: Review requests across all departments
+Administrators: Full system access including user management, service catalogue management, and all requests
+Upload completion photos as proof of work done
+Update request status with notes to citizens
+System Capabilities:
+
+Multi-department service catalogue management
+Role-based access control (citizen, officer, supervisor, admin)
+Payment tracking for paid services
+Notification system for request updates
+Chatbot navigation assistant
+PDF report generation for all access levels
+Strong password security requirements
+The system provides transparency, accountability, and efficiency in public service delivery by digitizing the entire request-to-completion workflow.
