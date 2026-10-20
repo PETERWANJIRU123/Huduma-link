@@ -5,7 +5,7 @@ Citizens submit service requests (broken streetlight, water issue, garbage colle
 ## Setup
 
 1. Start Apache and MySQL in XAMPP.
-2. Visit `http://localhost/hudumalink/install.php`.
+2. Visit `http://localhost/public service sys/install.php`.
 3. Click **Run installation**. If this database still has the older passport/ID catalogue, also click **Update catalogue to civic requests**.
 4. Sign in, then protect or delete `install.php`.
 
