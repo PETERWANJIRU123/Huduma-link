@@ -1,6 +1,6 @@
 # HudumaLink — Public Service Request System
 
-Citizens submit service requests (broken streetlight, water issue, garbage collection, bursary, and any extras an administrator adds). Staff process the queue. Administrators manage users at different access levels and can add or remove services.
+Citizens submit service requests (broken streetlight, water issue, garbage collection, bursary, and any extras an administrator adds). Staff process the queue. Administrators manage users at different access levels and can add or remove services.It also has a chatbot which assists in navigation.
 
 ## Setup
 
